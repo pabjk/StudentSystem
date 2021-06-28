@@ -1,0 +1,83 @@
+{
+    "cover_bg": [{
+            "type": "INTJ",
+            "introduction": "analysts_Architect_INTJ_introduction.svg",
+            "header": "analysts_Architect_INTJ_personality_header.svg"
+        },
+        {
+            "type": "INTP",
+            "introduction": "analysts_Logician_INTP_introduction.svg",
+            "header": "analysts_Logician_INTP_personality_header.svg"
+        },
+        {
+            "type": "ENTJ",
+            "introduction": "analysts_Commander_ENTJ_introduction.svg",
+            "header": "analysts_Commander_ENTJ_personality_header.svg"
+        },
+        {
+            "type": "ENTP",
+            "introduction": "analysts_Debater_ENTP_introduction.svg",
+            "header": "analysts_Debater_ENTP_personality_header.svg"
+        },
+        {
+            "type": "INFJ",
+            "introduction": "diplomats_Advocate_INFJ_introduction.svg",
+            "header": "diplomats_Advocate_INFJ_personality_header.svg"
+        },
+        {
+            "type": "INFP",
+            "introduction": "diplomats_Mediator_INFP_introduction.svg",
+            "header": "diplomats_Mediator_INFP_personality_header.svg"
+        },
+        {
+            "type": "ENFJ",
+            "introduction": "diplomats_Protagonist_ENFJ_introduction.svg",
+            "header": "diplomats_Protagonist_ENFJ_personality_header.svg"
+        },
+        {
+            "type": "ENFP",
+            "introduction": "diplomats_Campaigner_ENFP_introduction.svg",
+            "header": "diplomats_Campaigner_ENFP_personality_header.svg"
+        },
+        {
+            "type": "ISTJ",
+            "introduction": "sentinels_Logistician_ISTJ_introduction.svg",
+            "header": "sentinels_Logistician_ISTJ_personality_header.svg"
+        },
+        {
+            "type": "ISFJ",
+            "introduction": "sentinels_Defender_ISFJ_introduction.svg",
+            "header": "sentinels_Defender_ISFJ_personality_header.svg"
+        },
+        {
+            "type": "ESTJ",
+            "introduction": "sentinels_Executive_ESTJ_introduction.svg",
+            "header": "sentinels_Executive_ESTJ_personality_header.svg"
+        },
+        {
+            "type": "ESFJ",
+            "introduction": "sentinels_Consul_ESFJ_introduction.svg",
+            "header": "sentinels_Consul_ESFJ_personality_header.svg"
+        },
+        {
+            "type": "ISTP",
+            "introduction": "explorers_Virtuoso_ISTP_introduction.svg",
+            "header": "explorers_Virtuoso_ISTP_personality_header.svg"
+        },
+        {
+            "type": "ISFP",
+            "introduction": "explorers_Adventurer_ISFP_introduction.svg",
+            "header": "explorers_Adventurer_ISFP_personality_header.svg"
+        },
+        {
+            "type": "ESTP",
+            "introduction": "explorers_Entrepreneur_ESTP_introduction.svg",
+            "header": "explorers_Entrepreneur_ESTP_personality_header.svg"
+        },
+        {
+            "type": "ESFP",
+            "introduction": "explorers_Entertainer_ESFP_introduction.svg",
+            "header": "explorers_Entertainer_ESFP_personality_header.svg"
+        }
+    ]
+}
