@@ -55,7 +55,6 @@ if (isset($_POST) && !empty($_POST)):
     //         echo json_encode($data);
     //     } catch (Exception $e) {
     //         print_r($e->getMessage());
-    //    
     //     break;
     case 'selectAllGroupType':
         try {
