@@ -34,5 +34,6 @@ foreach($mbtiTable as $i=>$v){
     $count++;
 }
 //mmm
+//xxx
 unset($db);
 exit();
