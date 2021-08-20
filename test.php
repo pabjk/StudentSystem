@@ -33,7 +33,6 @@ foreach($mbtiTable as $i=>$v){
     if($count%$groupNum==0)$count=0;
     $count++;
 }
-//mmm
-//xxx
+
 unset($db);
 exit();
