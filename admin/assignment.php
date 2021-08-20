@@ -1,5 +1,5 @@
 <?php
-/*SERVER CODE*/
+/*SERVER CODE* สวยคาตา/
 session_start();
 if (!isset($_SESSION['user']) || empty($_SESSION['user'])) {
     header("location:nopermission.php");
