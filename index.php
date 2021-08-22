@@ -13,7 +13,7 @@ session_start();
     <link rel="stylesheet" href="app.css" />
 </head>
 
-<body>
+<body >
     <!-- view landing-->
     <div id="landing" data-role="view" data-layout="default_layout" data-transition="slide"
         data-after-show="page.refreshLanding">
