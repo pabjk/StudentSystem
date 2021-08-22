@@ -157,7 +157,7 @@ endif;
                         <div class="table-responsive">
                             <table class="table table-striped table-hover table-bordered caption-top">
                                 <caption>
-                                    <?=$_SESSION['setting']['lang']=='en'?'The top 10 subjects with the most assignments of the year ':'10 ลำดับวิชาที่มีการมอบหมายงานมากที่ในสุดปี ';?><?=date("Y")?>
+                                    <?=$_SESSION['setting']['lang']=='en'?'The top 10 subjects with the most assignments of the year ':'10 ลำดับวิชาที่มีการมอบหมายงานมากที่สุดในปี ';?><?=date("Y")?>
                                 </caption>
                                 <thead>
                                     <tr>
@@ -189,7 +189,7 @@ endif;
                         <div class="table-responsive">
                             <table class="table table-striped table-hover table-bordered caption-top">
                                 <caption>
-                                    <?=$_SESSION['setting']['lang']=='en'?'The 10 most discussed subjects of the year ':'แสดง 10 ลำดับวิชาที่มีการปรึกษากันมากที่สุดในปี ';?><?=date("Y")?>
+                                    <?=$_SESSION['setting']['lang']=='en'?'The 10 most discussed subjects of the year ':'10 ลำดับวิชาที่มีการปรึกษากันมากที่สุดในปี ';?><?=date("Y")?>
                                 </caption>
                                 <thead>
                                     <tr>
