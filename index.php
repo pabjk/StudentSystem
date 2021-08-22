@@ -51,7 +51,7 @@ session_start();
                         </div>
                         <div>
                             <a data-click="page.login" data-role="button"
-                                style="width: 300px;margin-top: 20px;background-color: #0d6efd;color: #fff;">L
+                                style="width: 300px;margin-top: 20px;background-color: #f95c13;color: #fff;">L
                                 O G I N</a>
                         </div>
                     </div>
