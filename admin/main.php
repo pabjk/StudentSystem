@@ -282,7 +282,7 @@ endif;
             page.barchat = $("#bar-chart").kendoChart({
                 theme: 'material',
                 title: {
-                    text: "<?=$_SESSION['setting']['lang']=='en'?'Compare the number of students\n for each MBTI type.':'เปรียบเทียบ\n จำนวนนักศึกษาในแต่ละ MBTI';?>"
+                    text: "<?=$_SESSION['setting']['lang']=='en'?'Compare the number of students\n for each MBTI type.':'กราฟเปรียบเทียบ\n จำนวนนักศึกษาในแต่ละ MBTI';?>"
                 },
                 legend: {
                     visible: false,
