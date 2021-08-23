@@ -1,5 +1,5 @@
 <?php
-/*SERVER CODE* สวยคาตา/
+/*SERVER CODE*/
 session_start();
 if (!isset($_SESSION['user']) || empty($_SESSION['user'])) {
     header("location:nopermission.php");
@@ -55,6 +55,7 @@ if (isset($_POST) && !empty($_POST)):
     //         echo json_encode($data);
     //     } catch (Exception $e) {
     //         print_r($e->getMessage());
+    //     }
     //     break;
     case 'selectAllGroupType':
         try {

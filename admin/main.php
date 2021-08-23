@@ -288,7 +288,7 @@ endif;
                     visible: false,
                 },
                 seriesDefaults: {
-                    type: "bar",
+                    type: "column",
                     labels: {
                         template: "#= series.name #",
                         position: "outsideEnd",

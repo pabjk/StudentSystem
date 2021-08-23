@@ -13,7 +13,7 @@ session_start();
     <link rel="stylesheet" href="app.css" />
 </head>
 
-<body >
+<body>
     <!-- view landing-->
     <div id="landing" data-role="view" data-layout="default_layout" data-transition="slide"
         data-after-show="page.refreshLanding">
@@ -28,17 +28,12 @@ session_start();
     </div>
     <!-- view login-->
     <div id="login" data-role="view" data-layout="default_layout" data-use-native-scrolling="true"
-        data-transition="slide">
-        <div data-role="content" style="background-image: url(images/bg.jpeg);">
-            <div id="login-logo"><img src="images/studentGroupingLogo.png" alt="Student Grouping System" width="98">
-            </div>
-            <div
-                style="text-align: center;position: fixed;width: 100%;top: 200px;color: #493C45;font-size: 20.0pt;font-family:'OpenSans-Regular';">
-                Student Grouping System</div>
-                <div
-                style="text-align: center;position: fixed;width: 100%;top: 250px;color: #493C45;font-size: 18.0pt;font-family:'OpenSans-Regular';">
-                Student\Teacher Login</div>
-            <div style="text-align: center;position: fixed;width: 100%;top: 300px;">
+        data-transition="slide" style="background-image: url(images/bg.jpeg);background-size: cover;">
+        <div data-role="content" style="display: flex;align-items: center;justify-content: center;">
+            <main class="form-signin" style="width: 100%;max-width: 330px;padding: 15px;margin: auto;text-align: center;">
+            <img style="margin-bottom: 1.5rem!important;" src="images/studentGroupingLogo.png" alt="" width="72" height="72">
+            <h1 class="h3" style="margin-bottom: 1rem!important;">Student Grouping System</h1>
+            <h1 class="h1" style="margin-bottom: 1rem!important;">Student\Teacher Login</h1>
                 <form id="login_form">
                     <div class="row">
                         <div>
@@ -56,7 +51,7 @@ session_start();
                         </div>
                     </div>
                 </form>
-            </div>
+            </main>
         </div>
     </div>
     <!-- view register -->
@@ -145,9 +140,10 @@ session_start();
     <script src="app.js"></script>
     <script>
     var app = new kendo.mobile.Application(document.body, {
-        skin: "nova"
-    }),
-    page = new page();
+            skin: "nova"
+        }),
+        page = new page();
+
     function page() {
         page.prototype.refreshLanding = function(e) {
             $('.loader-wrapper').show();
@@ -164,10 +160,10 @@ session_start();
             }), true, true, function(response) {
                 if (response != false) {
                     redirect('main.php');
-                }else{
+                } else {
                     kendo.alert('Username or Password is invlid!');
                 }
-                
+
             });
         }
     }
