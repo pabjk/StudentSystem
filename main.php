@@ -28,10 +28,10 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div style="margin-top:50px" class="roundbox1">
                 <div style="float:left;font-size: 56px;color:#252838" class="material-icons">person</div>
                 <div>
-                    <div style="color: #493D45;font-size: 20.0pt;font-family:'OpenSans-Light';">
+                    <div style="color: #493D45;font-size: 20.0pt;">
                         <?=$_SESSION['user']['data'][0]['fullName']?>
                     </div>
-                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-Light';">
+                    <div style="color: #493D45;font-size: 10.0pt;">
                         <?php if($_SESSION['user']['data'][0]['userTypeID']==3):?>
                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Code :' : 'รหัสนักศึกษา :';?>
                         <?=$_SESSION['user']['data'][0]['userCode']?>
@@ -46,7 +46,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                 </div>
             </div>
             <div
-                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
                 <?=$_SESSION['setting']['lang'] == 'en' ? 'MAIN MENU' : 'เมนูหลัก';?></div>
             <?php if ($_SESSION['user']['data'][0]['userTypeID'] == 3): ?>
             <div style="margin-top:10px" class="roundbox1">
@@ -61,7 +61,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">
                                             account_circle</div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Profile' : 'ข้อมูลผู้ใช้';?>
                                     </div>
                                 </a>
@@ -74,7 +74,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">
                                             assignment_turned_in</div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Assignment' : 'มอบหมายงาน';?>
                                     </div>
                                 </a>
@@ -88,7 +88,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             live_help
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Evaluations' : 'การประเมิน';?>
                                     </div>
                                 </a>
@@ -101,7 +101,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">
                                             help_outline</div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'My Evaluation' : 'ผลการประเมิน';?>
                                     </div>
                                 </a>
@@ -115,7 +115,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             assignment
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">mbti
+                                    <div style="color: #493D45;font-size: 10.0pt;;">mbti
                                     </div>
                                 </a>
                             </div>
@@ -131,7 +131,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             assignment
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">mbti
+                                    <div style="color: #493D45;font-size: 10.0pt;;">mbti
                                     </div>
                                 </a>
                             </div> -->
@@ -143,7 +143,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">
                                             question_answer</div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Discussion' : 'ช่องการสนทนา';?>
                                     </div>
                                 </a>
@@ -157,7 +157,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             settings
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Setting' : 'ตั้งค่า';?>
                                     </div>
                                 </a>
@@ -171,7 +171,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             exit_to_app
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Logout' : 'ออกจากระบบ';?>
                                     </div>
                                 </a>
@@ -202,7 +202,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">
                                             account_circle</div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Profile' : 'ข้อมูลผู้ใช้';?>
                                     </div>
                                 </a>
@@ -215,7 +215,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">
                                             assignment_turned_in</div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Assignment' : 'มอบหมายงาน';?>
                                     </div>
                                 </a>
@@ -229,7 +229,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             live_help
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Evaluations' : 'การประเมิน';?>
                                     </div>
                                 </a>
@@ -242,7 +242,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">
                                             question_answer</div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Discussion' : 'ช่องการสนทนา';?>
                                     </div>
                                 </a>
@@ -261,7 +261,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             settings
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Setting' : 'ตั้งค่า';?>
                                     </div>
                                 </a>
@@ -275,7 +275,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                             exit_to_app
                                         </div>
                                     </div>
-                                    <div style="color: #493D45;font-size: 10.0pt;font-family:'OpenSans-SemiBold';">
+                                    <div style="color: #493D45;font-size: 10.0pt;;">
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'Logout' : 'ออกจากระบบ';?>
                                     </div>
                                 </a>
@@ -293,15 +293,15 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
         <div data-role="content" style="background-image: url(images/bg.jpeg);">
             <div style="margin-top:50px;padding-bottom: 20px;" class="roundbox1">
                 <div style="text-align:center">
-                    <div class="circle" style="background-color:#ff7f50;min-width:120px;min-height:120px;">
+                    <div class="circle" style="background-color:#D68ECD;min-width:120px;min-height:120px;">
                         <div class="material-icons textshadow"
                             style="font-size: 72px;color: #ffffff;position: relative;top: 14px;">person</div>
                     </div>
                 </div>
                 <div
-                    style="text-align:center;margin-top:20px;color: #333333;font-size: 12.0pt;font-family:'OpenSans-Regular'">
+                    style="text-align:center;margin-top:20px;color: #333333;font-size: 12.0pt;">
                     <?=$_SESSION['user']['data'][0]['fullName']?></div>
-                <div style="text-align:center;color: #333333;font-size: 10.0pt;font-family:'OpenSans-Regular'">
+                <div style="text-align:center;color: #333333;font-size: 10.0pt;">
                     <?=$_SESSION['setting']['lang'] == 'en' ? 'Code :' : 'รหัสนักศึกษา :';?>
                     <?=$_SESSION['user']['data'][0]['userCode']?>
                     <?=$_SESSION['setting']['lang'] == 'en' ? 'Group :' : 'กลุ่มเรียน :';?>
@@ -311,31 +311,31 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                 <div style="overflow-y: auto;max-height: 60vh;">
                     <form id="profile_form">
                         <div style="text-align:left;margin-top:20px;margin-left:10px;padding-right: 20px;">
-                            <div style="color: #333333;font-size: 10pt;font-family:'OpenSans-SemiBold'">
+                            <div style="color: #333333;font-size: 10pt;">
                                 <?=$_SESSION['setting']['lang'] == 'en' ? 'F U L L&nbsp;&nbsp;N A M E' : 'ชื่อ สกุล';?>
                             </div>
                             <input type="text" value="<?=$_SESSION['user']['data'][0]['fullName']?>"
                                 id="profile_fullName"
-                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;font-family:'OpenSans-Light';width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
+                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
                         </div>
                         <div style="text-align:left;margin-top:20px;margin-left:10px;padding-right: 20px;">
-                            <div style="color: #333333;font-size: 8.0pt;font-family:'OpenSans-SemiBold'">
+                            <div style="color: #333333;font-size: 8.0pt;">
                                 <?=$_SESSION['setting']['lang'] == 'en' ? 'U S E R&nbsp;&nbsp;C O D E' : 'รหัสนักศึกษา/รหัสอาจารย์';?>
                             </div>
                             <input type="text" value="<?=$_SESSION['user']['data'][0]['userCode']?>" readonly
-                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;font-family:'OpenSans-Light';width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
+                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
                         </div>
                         <div style="text-align:left;margin-top:20px;margin-left:10px;padding-right: 20px;">
-                            <div style="color: #333333;font-size: 8.0pt;font-family:'OpenSans-SemiBold'">
+                            <div style="color: #333333;font-size: 8.0pt;">
                                 <?=$_SESSION['setting']['lang'] == 'en' ? 'E - M A I L' : 'อีเมล';?></div>
                             <input type="email" value="<?=$_SESSION['user']['data'][0]['email']?>" readonly
-                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;font-family:'OpenSans-Light';width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
+                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
                         </div>
                         <div style="text-align:left;margin-top:20px;margin-left:10px;padding-right: 20px;">
-                            <div style="color: #333333;font-size: 8.0pt;font-family:'OpenSans-SemiBold'">
+                            <div style="color: #333333;font-size: 8.0pt;">
                                 <?=$_SESSION['setting']['lang'] == 'en' ? 'P A S S W O R D' : 'รหัสผ่าน';?></div>
                             <input type="password" id="profile_password" name="profile_password"
-                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;font-family:'OpenSans-Light';width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
+                                style="text-align:left;margin-top:10px;color: #333333;font-size: 18pt;width:100%;height: 46px;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
                         </div>
 
 
@@ -371,7 +371,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
 
             </div>
             <div
-                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
                 <?=$_SESSION['setting']['lang'] == 'en' ? 'Team Member' : 'สมาชิกกลุ่ม';?> 
                 <span id="assignmentDetail_groupNum">#:groupNum#</span></div>
             <div style="margin-top:10px;padding-bottom: 20px;" class="roundbox1">
@@ -400,7 +400,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                 <div id="pickupTeam_group"></div>
             </div>
             <div
-                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
                 <?=$_SESSION['setting']['lang'] == 'en' ? 'Avalaible Team' : 'เลือกกลุ่ม';?></div>
             <div style="margin-top:10px;padding-bottom: 20px;" class="roundbox1" id="pickupTeam_avalaible_group">
 
@@ -423,7 +423,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             </div>
 
             <div
-                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
                 <?=$_SESSION['setting']['lang'] == 'en' ? 'Team member' : 'สมาชิกกลุ่ม';?>
             </div>
             <div style="margin-top:10px;padding-bottom: 20px;" class="roundbox1">
@@ -449,7 +449,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                 <div id="randomTeam_group"></div>
             </div>
             <div
-                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
                 <?=$_SESSION['setting']['lang'] == 'en' ? 'Avalaible Team' : 'เลือกกลุ่ม';?></div>
             <div style="margin-top:10px;padding-bottom: 20px;text-align:center" class="roundbox1">
 
@@ -508,7 +508,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                         </div>
                         <div class="divTableCell" style="width: 80%;vertical-align: middle;">
                             <input type="text" id="chat_input" placeholder="Type your message here..."
-                                style="color: #333333;font-size: 16pt;font-family: 'OpenSans-Light';height: 40px;width: 100%;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
+                                style="color: #333333;font-size: 16pt;;height: 40px;width: 100%;border: solid 1px #ccc;border-radius: 10px;text-indent: 5px;" />
 
                         </div>
                         <div class="divTableCell" style="width: 10%;vertical-align: middle;">
@@ -530,14 +530,14 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div id="mbti_cover_bg" style="margin-top:10px;text-align: center;background-image: url(images/analysts_Architect_INTJ_personality_header.svg);background-repeat: no-repeat;
         background-size: cover;background-position-y: center;opacity: 1;" class="roundbox1">
                 <div
-                    style="color: #493D45;font-size: 14.0pt;font-family:'OpenSans-Bold';margin-top: 116px;background-color: #ffffff;opacity: 0.8;">
+                    style="color: #493D45;font-size: 14.0pt;;margin-top: 116px;background-color: #ffffff;opacity: 0.8;">
                     <?=$_SESSION['setting']['lang'] == 'en' ? 'Your Personality Type is:' : 'บุคลิกภาพของคุณคือ';?>
                     <span id="mbti_type"
-                        style="color: #493D45;font-size: 20.0pt;font-family:'OpenSans-Bold';">????</span>
+                        style="color: #493D45;font-size: 20.0pt;;">????</span>
                 </div>
             </div>
             <div id="takethetest" 
-                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
                 Take the Test</div>
             <div style="margin-top:10px" class="roundbox1">
                 <form id="MBTIForm">
@@ -592,7 +592,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
         data-after-show="page.refreshEvaluationCheck" data-transition="slide">
         <div data-role="content" style="background-image: url(images/bg.jpeg);">
             <div id="evaluationCheck-title"
-                style="text-align:center;margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="text-align:center;margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
             </div>
             <div style="text-align:center;"><a id="btnEvaluationResult" data-role="button"
                     class="km-primary"><?=$_SESSION['setting']['lang'] == 'en' ? 'Evaluation result' : 'ผลการประเมิน';?></a>
@@ -609,10 +609,10 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
         data-after-show="page.refreshEvaluationResult" data-transition="slide">
         <div data-role="content" style="background-image: url(images/bg.jpeg);">
             <div id="evaluationResult-title"
-                style="text-align:center;margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="text-align:center;margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
             </div>
             <div
-                style="text-align:center;margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                style="text-align:center;margin-top:10px;margin-left:10px;color: #493D45;font-size: 14.0pt;;">
             </div>
             <div style="margin-top:10px;" class="roundbox1" id="evaluationResult-panel">
 
@@ -799,7 +799,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="default_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -812,7 +812,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="MBTITeam_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -825,7 +825,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="pickupTeam_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -838,7 +838,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="randomTeam_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -856,7 +856,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="pickupTeam_detail_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -875,7 +875,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                 <img style="position:fixed;left:10px;top:10px;" src="images/studentGroupingLogo.png"
                     alt="Student Grouping System" width="32">
                 <div
-                    style="position: fixed;top: 10px;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;color: #493D45;font-size: 16.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 10px;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;color: #493D45;font-size: 16.0pt;;">
                     Student Grouping System</div>
 
                 <a href="javascript:page.logout();">
@@ -890,7 +890,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="profile_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -908,7 +908,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="assignment_detail_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -926,7 +926,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a href="#mainmenu" data-role="backbutton" data-align="left"></a>
                 <div id="myassignment_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -948,7 +948,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a href="#mainmenu" data-role="backbutton" data-align="left"></a>
                 <div id="allassignment_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -970,7 +970,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="discuss_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -986,7 +986,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="discuss_room_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -999,7 +999,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="mbti_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -1017,7 +1017,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a href="#mainmenu" data-role="backbutton" data-align="left"></a>
                 <div id="evaluation_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -1033,7 +1033,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="evaluation_check_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -1051,7 +1051,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a href="#mainmenu" data-role="backbutton" data-align="left"></a>
                 <div id="registration_information_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -1073,7 +1073,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a href="#mainmenu" data-role="backbutton" data-align="left"></a>
                 <div id="registration_information_discussion_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -1089,7 +1089,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a href="#mainmenu" data-role="backbutton" data-align="left"></a>
                 <div id="all_registration_information_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -1111,7 +1111,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="teacher_assignment_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -1124,7 +1124,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="teacher_assignment_group_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -1137,7 +1137,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left"></a>
                 <div id="teacher_assignment_detail_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="#mainmenu"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">home</i></a>
@@ -1146,7 +1146,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
         <div data-role="footer">
             <button data-role="button" id="btnUpdateAssignment"
                 style="background-color: #282828;border-color: #282828;color: #fff;width: 100%;">
-                <?=$_SESSION['setting']['lang'] == 'en' ? 'SAVE ASSIGNMENT' : 'บันทึกการมอบหมาย';?></button>
+                <?=$_SESSION['setting']['lang'] == 'en' ? 'ASSIGN' : 'มอบหมาย';?></button>
         </div>
     </section>
     <!-- template -->
@@ -1155,7 +1155,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
             <div data-role="navbar">
                 <a href="#mainmenu" data-role="backbutton" data-align="left"></a>
                 <div id="registration_information_evaluation_layout_title"
-                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;font-family:'OpenSans-SemiBold';">
+                    style="position: fixed;top: 0;left: 50%;-webkit-transform: translate(-50%, 0);transform: translate(-50%, 0);width: fit-content;font-size: 14.0pt;;">
                     &nbsp;</div>
                 <a href="javascript:page.logout();"><i class="material-icons"
                         style="position: fixed;right: 10px;top: 10px;">exit_to_app</i></a>
@@ -1701,7 +1701,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                     }
                     html += '<div class="divTableCell"><a href="#pickupTeamDetail?assignID=' + e.view.params
                         .assignID + '&groupNum=' + (i) +
-                        '"><div class="circle" style="background-color:#252838;min-width:60px;min-height:60px;"><i class="material-icons" style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">group</i></div><div style="color: #493D45;font-size: 10.0pt;font-family:\'OpenSans-SemiBold\';"><?=$_SESSION['setting']['lang'] == 'en' ? 'Group:' : 'กลุ่มที่:';?>' +
+                        '"><div class="circle" style="background-color:#252838;min-width:60px;min-height:60px;"><i class="material-icons" style="font-size: 32px;color: #ffffff;position: relative;top: 14px;">group</i></div><div style="color: #493D45;font-size: 10.0pt;"><?=$_SESSION['setting']['lang'] == 'en' ? 'Group:' : 'กลุ่มที่:';?>' +
                         (i) + '</div></a></div>';
                     if (i % 4 == 0) {
                         html += '</div>';
@@ -1883,7 +1883,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                     'textFontSize': 20,
                                     'textFillStyle': '#fff',
                                     'fillStyle': randomColor,
-                                    'text': 'Group ' + v.groupNum,
+                                    'text': '<?=$_SESSION['setting']['lang'] == 'en' ? 'Group : ' : 'กลุ่ม : ';?> ' + v.groupNum,
                                     'groupNum': v.groupNum,
                                     'assignID': page.assignID
                                 });
@@ -1904,10 +1904,8 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                 'type': 'spinToStop',
                                 'duration': 5,
                                 'spins': 3,
-                                'callbackFinished': page
-                                .alertPrize, // Function to call whent the spinning has stopped.
-                                'callbackSound': page
-                                .playSound, // Called when the tick sound is to be played.
+                                'callbackFinished': page.alertPrize, // Function to call whent the spinning has stopped.
+                                'callbackSound': page.playSound, // Called when the tick sound is to be played.
                                 'soundTrigger': 'pin' // Specify pins are to trigger the sound.
                             },
                             'pins': // Turn pins on.
