@@ -1,23 +1,4 @@
-    @font-face {
-        font-family: 'OpenSans-Regular';
-        src: url('fonts/OpenSans-Regular.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'OpenSans-Bold';
-        src: url('fonts/OpenSans-Bold.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'OpenSans-Light';
-        src: url('fonts/OpenSans-Light.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'OpenSans-SemiBold';
-        src: url('fonts/OpenSans-SemiBold.ttf') format('truetype');
-    }
-    
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap');   
     @font-face {
         font-family: 'Material Icons';
         font-style: normal;
@@ -53,7 +34,13 @@
     body,
     html {
         height: 99%;
-        font-family: 'OpenSans-Regular', sans-serif;
+        font-family: 'Prompt', sans-serif!important;
+    }
+    input{
+        font-family: 'Prompt', sans-serif!important;
+    }
+    text{
+        font-family: 'Prompt', sans-serif!important;
     }
     
     a:link {
@@ -61,7 +48,7 @@
     }
     
     .km-content {
-        font-family: 'OpenSans-Regular', sans-serif;
+        
         /* The image used */
         /* background-image: url("images/bg.jpeg"); */
         background-color: transparent!important;
@@ -83,20 +70,12 @@
     transform: translate(-50%, -50%);
 } */
     
-    #login-logo {
-        position: fixed;
-        top: 100px;
-        left: 50%;
-        /* bring your own prefixes */
-        transform: translate(-50%, -50%);
-    }
-    
     #txtusername {
         width: 300px;
         height: 60px;
         border: solid 1px #ccc;
         border-radius: 10px 10px 0 0;
-        font-family: 'OpenSans-Regular';
+        
         font-size: 18pt;
         text-indent: 5px;
     }
@@ -106,7 +85,7 @@
         height: 60px;
         border: solid 1px #ccc;
         border-radius: 0 0 10px 10px;
-        font-family: 'OpenSans-Regular';
+        
         font-size: 18pt;
         text-indent: 5px;
     }
@@ -382,3 +361,4 @@
         float: right;
         margin-right: 10px;
     }
+    
