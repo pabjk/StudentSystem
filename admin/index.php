@@ -53,6 +53,10 @@ endif;
     html,
     body {
         height: 100%;
+        font-family: 'Prompt', sans-serif!important;
+    }
+    text{
+        font-family: 'Prompt', sans-serif!important;
     }
 
     body {
@@ -104,7 +108,7 @@ endif;
     <div class="loader-wrapper" style="display:none">
         <div class="loader"></div>
     </div>
-    <main class="form-signin">
+    <main class="form-signin" >
         <form action="index.php" method="post" class="form-signin" id="form-signin" role="form">
             <img class="mb-4" src="../images/studentGroupingLogo.png" alt="" width="72" height="72">
             <h1 class="h3 mb-3 fw-normal">Student Grouping System</h1>

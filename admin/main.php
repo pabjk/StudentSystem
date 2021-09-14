@@ -153,11 +153,11 @@ endif;
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="table-responsive">
                             <table class="table table-striped table-hover table-bordered caption-top">
                                 <caption>
-                                    <?=$_SESSION['setting']['lang']=='en'?'The top 10 subjects with the most assignments of the year ':'10 ลำดับวิชาที่มีการมอบหมายงานมากที่สุดในปี ';?><?=date("Y")?>
+                                    <?=$_SESSION['setting']['lang']=='en'?'Show the top 10 subjects with the most assignments of the year ':'แสดง 10 ลำดับวิชาที่มีการมอบหมายงานมากที่ในสุดปี ';?><?=date("Y")?>
                                 </caption>
                                 <thead>
                                     <tr>
@@ -189,7 +189,7 @@ endif;
                         <div class="table-responsive">
                             <table class="table table-striped table-hover table-bordered caption-top">
                                 <caption>
-                                    <?=$_SESSION['setting']['lang']=='en'?'The 10 most discussed subjects of the year ':'10 ลำดับวิชาที่มีการปรึกษากันมากที่สุดในปี ';?><?=date("Y")?>
+                                    <?=$_SESSION['setting']['lang']=='en'?'Showing the 10 most discussed subjects of the year ':'แสดง 10 ลำดับวิชาที่มีการหารือมากที่สุด ';?><?=date("Y")?>
                                 </caption>
                                 <thead>
                                     <tr>
@@ -216,7 +216,7 @@ endif;
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </main>
         </div>
@@ -245,7 +245,7 @@ endif;
             page.chart = $("#chart").kendoChart({
                 theme: 'material',
                 title: {
-                    text: "<?=$_SESSION['setting']['lang']=='en'?'The proportion of redstone\n selection in each assignment.':'สัดส่วนของการเลือกจับกลุ่ม\n ในแต่ละการมอบหมายงาน';?>"
+                    text: "<?=$_SESSION['setting']['lang']=='en'?'A graph showing the proportion of redstone\n selection in each assignment.':'กราฟแสดงสัดส่วนของการเลือกจับกลุ่มในแต่ละการมอบหมายงาน';?>"
                 },
                 legend: {
                     position: "top"
@@ -282,7 +282,7 @@ endif;
             page.barchat = $("#bar-chart").kendoChart({
                 theme: 'material',
                 title: {
-                    text: "<?=$_SESSION['setting']['lang']=='en'?'Compare the number of students\n for each MBTI type.':'กราฟเปรียบเทียบ\n จำนวนนักศึกษาในแต่ละ MBTI';?>"
+                    text: "<?=$_SESSION['setting']['lang']=='en'?'Compare the number of students\n for each MBTI type.':'เปรียบเทียบจำนวนนักศึกษาในแต่ละ MBTI';?>"
                 },
                 legend: {
                     visible: false,

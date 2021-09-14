@@ -1,23 +1,4 @@
-    @font-face {
-        font-family: 'OpenSans-Regular';
-        src: url('fonts/OpenSans-Regular.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'OpenSans-Bold';
-        src: url('fonts/OpenSans-Bold.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'OpenSans-Light';
-        src: url('fonts/OpenSans-Light.ttf') format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'OpenSans-SemiBold';
-        src: url('fonts/OpenSans-SemiBold.ttf') format('truetype');
-    }
-    
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400&display=swap');           
     @font-face {
         font-family: 'Material Icons';
         font-style: normal;
@@ -26,7 +7,16 @@
         /* For IE6-8 */
         src: local('Material Icons'), local('MaterialIcons-Regular'), url(../fonts/MaterialIcons-Regular.woff2) format('woff2'), url(../fonts/MaterialIcons-Regular.woff) format('woff'), url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
     }
-    
+    body,
+    html {
+        font-family: 'Prompt', sans-serif!important;
+    }
+    input{
+        font-family: 'Prompt', sans-serif!important;
+    }
+    text{
+        font-family: 'Prompt', sans-serif!important;
+    }
     .material-icons {
         font-family: 'Material Icons';
         font-weight: normal;
@@ -273,3 +263,4 @@
         white-space: nowrap;
         text-overflow: ellipsis;
     }
+    
