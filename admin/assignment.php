@@ -27,6 +27,7 @@ if (isset($_POST) && !empty($_POST)):
     //     } catch (Exception $e) {
     //         print_r($e->getMessage());
     //     }
+    //
     //     break;
     case 'selectAllRegistrationInformation':
         try {
