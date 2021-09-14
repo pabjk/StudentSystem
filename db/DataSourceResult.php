@@ -37,7 +37,7 @@ class DataSourceResult {
         'count' => 'COUNT',
         'sum' => 'SUM'
     );
-	function __construct($dsn="mysql:host=localhost;dbname=studentgroupingsystem", $username="root", $password="", $driver_options=null) {
+	function __construct($dsn="mysql:host=localhost;dbname=studentgroupingsystem", $username="root", $password="root", $driver_options=null) {
         $this->db = new PDO($dsn, $username, $password, $driver_options);
 		$this->db->exec("set names utf8");
     }
