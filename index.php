@@ -61,7 +61,7 @@ session_start();
         <div data-role="content">
             <div style="margin-top:50px;padding-bottom: 20px;" class="roundbox1">
                 <div style="text-align:center">
-                    <div class="circle" style="background-color:#D68ECD;min-width:120px;min-height:120px;">
+                    <div class="circle" style="background-color:#fe8e5f;min-width:120px;min-height:120px;">
                         <div class="material-icons textshadow"
                             style="font-size: 72px;color: #ffffff;position: relative;top: 14px;">person
                         </div>
