@@ -7,8 +7,8 @@ header("HTTP/1.1 401 Unauthorized");
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Developer Mr.Vilerswat Noosaeng srel90@gmail.com 0840900050">
-    <meta name="author" content="Vilerswat Noosaeng">
+    <meta name="description" content="3Spines">
+    <meta name="author" content="3Spines">
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <title>Student Grouping System | Sign in</title>
     <style>

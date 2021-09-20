@@ -94,8 +94,8 @@ if (isset($_POST) && !empty($_POST)):
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Developer Mr.Vilerswat Noosaeng srel90@gmail.com 0840900050">
-    <meta name="author" content="Vilerswat Noosaeng">
+    <meta name="description" content="3Spines">
+    <meta name="author" content="3Spines">
     <title>Student Grouping System | Sign in</title>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
