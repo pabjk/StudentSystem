@@ -14,9 +14,9 @@
 
 
 -- Dumping database structure for studentgroupingsystem
-DROP DATABASE IF EXISTS `studentgroupingsystem`;
-CREATE DATABASE IF NOT EXISTS `studentgroupingsystem` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
-USE `studentgroupingsystem`;
+DROP DATABASE IF EXISTS `groupset`;
+CREATE DATABASE IF NOT EXISTS `groupset` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
+USE `groupset`;
 
 -- Dumping structure for table studentgroupingsystem.assignment
 DROP TABLE IF EXISTS `assignment`;
