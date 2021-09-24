@@ -269,7 +269,7 @@ if (isset($_POST) && !empty($_POST)):
             LEFT OUTER JOIN registration_information ri ON ass.regisID=ri.regisID
             where ass.assignID='".$_POST['assignID']."'";
             $data = $db->select($sql);
-                $numGroup=$data['data'][0]['numGroup'];
+            $numGroup=$data['data'][0]['numGroup'];
 
             $sql="SELECT * FROM user WHERE classGroup='".$data['data'][0]['classGroup']."'";
             $data = $db->select($sql);
@@ -575,7 +575,7 @@ if (isset($_POST) && !empty($_POST)):
             $groupUser[]=$v['userID'];
         }
 
-        $sql="select userID from user where classGroup='".$_POST['classGroup']."'";
+        $sql="select userID from user where classGroup='".$_POST['classGroup']."' and userTypeID='3'";
         $data=$db->select($sql);
         foreach($data['data'] as $i=>$v){
             $nonGroupUser[]=$v['userID'];
