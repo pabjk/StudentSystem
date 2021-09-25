@@ -518,7 +518,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                                     <input name="radio" type="radio"
                                         <?=$_SESSION['setting']['lang'] == 'en' ? 'checked="checked"' : ''?>
                                         onclick="page.switchLanguage('en')" />
-                                    Endglish
+                                    English
                                 </label>
                             </li>
                             <li>
