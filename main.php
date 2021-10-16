@@ -1146,7 +1146,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
         <div data-role="footer">
             <button data-role="button" id="btnUpdateAssignment"
                 style="background-color: #282828;border-color: #282828;color: #fff;width: 100%;">
-                <?=$_SESSION['setting']['lang'] == 'en' ? 'ASSIGN' : 'มอบหมาย';?></button>
+                <?=$_SESSION['setting']['lang'] == 'en' ? 'SAVE ASSIGNMENTS' : 'บันทึกมอบหมาย';?></button>
         </div>
     </section>
     <!-- template -->
