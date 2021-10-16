@@ -56,7 +56,12 @@ function checkpage($page){
                 </a>
             </li>
             
-            
+            <li class="nav-item">
+            <a class="nav-link <?=checkpage('discussion.php')?' active':''?>" href="discussion.php">
+                    <span class="material-icons">question_answer</span>
+                    <?=$_SESSION['setting']['lang'] == 'en' ? 'Discussion' : 'ข้อมูลการอภิปรายผล';?>
+                </a>
+            </li>
             <li class="nav-item">
             <a class="nav-link <?=checkpage('mbti_question.php')?' active':''?>" href="mbti_question.php">
                     <span class="material-icons">help</span>
@@ -70,8 +75,17 @@ function checkpage($page){
                 </a>
             </li>
             <li class="nav-item">
-           
-            
+            <a class="nav-link <?=checkpage('evaluation_question.php')?' active':''?>" href="evaluation_question.php">
+                    <span class="material-icons">help</span>
+                    <?=$_SESSION['setting']['lang'] == 'en' ? 'Teamwork evaluation' : 'แบบประเมินผลการปฏิบัติงาน';?>
+                </a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link <?=checkpage('evaluation_answer.php')?' active':''?>" href="evaluation_answer.php">
+                    <span class="material-icons">help</span>
+                    <?=$_SESSION['setting']['lang'] == 'en' ? 'Teamwork evaluation result' : 'ผลประเมินผลการปฏิบัติงาน';?>
+                </a>
+            </li>
             <!-- <li class="nav-item">
                 <a class="nav-link" href="#">
                     <span class="material-icons">assessment</span>
