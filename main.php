@@ -13,7 +13,7 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
 
 <head>
     <meta charset="utf-8" />
-    <title>Student Grouping System</title>
+    <title>Student Grouping System dev2</title>
     <link rel="stylesheet" href="kendoui/styles/kendo.common.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.default.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.mobile.all.min.css" />
