@@ -6,7 +6,7 @@ session_start();
 
 <head>
     <meta charset="utf-8" />
-    <title>Student Grouping System </title>
+    <title>Student Grouping System</title>
     <link rel="stylesheet" href="kendoui/styles/kendo.common.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.default-v2.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.mobile.all.min.css" />
@@ -14,7 +14,7 @@ session_start();
 </head>
 
 <body>
-    <!-- view landing -->
+    <!-- view landing-->
     <div id="landing" data-role="view" data-layout="default_layout" data-transition="slide"
         data-after-show="page.refreshLanding">
         <div data-role="content">
