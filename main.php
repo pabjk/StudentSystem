@@ -1172,8 +1172,8 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
     <script type="text/x-kendo-tmpl" id="listview_teacher_assignment_template">
         <a class="km-listview-link">
             <h5>#:courseCode# #:courseName#</h5>
-            <p>#:assignTitle#</p>
-            <p>#:assignDate# #:semester#/#:year# </p>
+            <p id="teacherAssignmentGroup_assignTitle"><?=$_SESSION['setting']['lang'] == 'en' ? '<b>Title : </b>' : '<b>หัวข้อ : </b>';?><span>#:assignTitle#</span></p>
+            <p id="teacherAssignmentGroup_assignDate"><?=$_SESSION['setting']['lang'] == 'en' ? '<b>Assignment Date : </b>' : '<b>วันที่มอบหมาย : </b>';?><span>#:assignDate# #:semester#/#:year#</span></p>
             <p>#:groupType#</p>
         </a>
     </script>
