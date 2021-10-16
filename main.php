@@ -1086,16 +1086,16 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
     <script type="text/x-kendo-tmpl" id="filterable-listview-my-assignment-template">
         <a class="km-listview-link">
             <h5>#:courseCode# #:courseName#</h5>
-            <p>#:assignTitle#</p>
-            <p>#:assignDate# #:semester#/#:year# </p>
+            <p id="assignmentDetail_assignTitle"><?=$_SESSION['setting']['lang'] == 'en' ? '<b>Title : </b>' : '<b>หัวข้อ : </b>';?><span>#:assignTitle#</span></p>
+            <p id="assignmentDetail_assignDate"><?=$_SESSION['setting']['lang'] == 'en' ? '<b>Assignment Date : </b>' : '<b>วันที่มอบหมาย : </b>';?><span>#:assignDate# #:semester#/#:year#</span></p>
             <p>#:groupType# <?=$_SESSION['setting']['lang'] == 'en' ? ' Group: ' : 'กลุ่มที่ : ';?> #:groupNum#</p>
         </a>
     </script>
     <script type="text/x-kendo-tmpl" id="filterable-listview-all-assignment-template">
         <a class="km-listview-link">
             <h5>#:courseCode# #:courseName#</h5>
-            <p>#:assignTitle#</p>
-            <p>#:assignDate# #:semester#/#:year# </p>
+            <p id="assignmentDetail_assignTitle"><?=$_SESSION['setting']['lang'] == 'en' ? '<b>Title : </b>' : '<b>หัวข้อ : </b>';?><span>#:assignTitle#</span></p>
+            <p id="assignmentDetail_assignDate"><?=$_SESSION['setting']['lang'] == 'en' ? '<b>Assignment Date : </b>' : '<b>วันที่มอบหมาย : </b>';?><span>#:assignDate# #:semester#/#:year#</span></p>
             <p>#:groupType#</p>
         </a>
     </script>

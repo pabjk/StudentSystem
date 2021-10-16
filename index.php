@@ -6,7 +6,7 @@ session_start();
 
 <head>
     <meta charset="utf-8" />
-    <title>Student Grouping System</title>
+    <title>Student Grouping System Dev2</title>
     <link rel="stylesheet" href="kendoui/styles/kendo.common.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.default-v2.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.mobile.all.min.css" />
